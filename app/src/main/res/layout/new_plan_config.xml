@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#bb808080"
+        android:paddingTop="13dp"
+        android:paddingLeft="5dp"
+        android:textSize="18dp"
+        android:textColor="#ff000000"
+        android:text="플랜 이름"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/planNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="플랜 이름을 정해주세요"
+        android:layout_marginTop="7dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:id="@+id/ButtonActive"
+        android:background="@drawable/buta"
+        android:onClick="onButtonActivePlanClicked"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/ButtonSleep"
+        android:background="@drawable/butw"
+        android:onClick="onButtonSleepingPlanClicked"
+        android:layout_below="@+id/ButtonActive"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/ButtonRecord"
+        android:background="@drawable/butr"
+        android:onClick="onButtonRecordClicked"
+        android:layout_alignTop="@+id/ButtonSleep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
